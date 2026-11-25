@@ -1,0 +1,8 @@
+prompt = (
+            f"Summarization: {self.summarization}\n\n{all_info}\n\n"
+            f"Memory: {self.processed_memory}\n\n"
+            "Vote influence attribution. This response is private. Select any number of "
+            f"living ship-mates from:\n{candidate_text}\n\n"
+            "Return your normal sections, and end the Action section with "
+            "INFLUENCES: <comma-separated names>, or INFLUENCES: No one."
+        )
